@@ -53,14 +53,6 @@ h6 {
   font-weight: 300;
 }
 
-/* image caption */
-img+em {
-  font-family: "Josefin Sans", serif;
-  font-size: 16px;
-  font-style: normal;
-}
-
-
 .btn {
   font-family: "Montserrat", sans-serif;
   border: none;
@@ -862,8 +854,22 @@ textarea.form-control {
 }
 
 .site-blog-details img {
+  display: block;
   max-width: 100%;
   margin-bottom: 20px;
+}
+
+/* image caption */
+.site-blog-details img+em {
+  /* margin-bottom: 0px; */
+  margin-top: -20px;
+  display: block;
+  left: 0;
+  font-family: "Josefin Sans", serif;
+  font-size: 14px;
+  text-transform: lowercase;
+  font-style: normal;
+  color: #00113E;
 }
 
 .site-blog-details .blog-title {

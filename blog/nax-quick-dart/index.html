@@ -74,14 +74,35 @@
         <article class="site-blog-details">
           <h2 class="blog-title">Quick Dart (NAX)</h2>
           <img class="feature-image" src="/assets/images/blog/quick-dart/qd-home.jpg" alt="blog-details-image">
-          <p>Quick Dart</p>
-<ul>
-<li>Solo development in Unity (Art assets provided by NAX design team)</li>
-<li>Azure Playfab integration for persistant leaderboards</li>
-<li>Hit 8 increasingly difficult targets, with a maximum of 8 darts</li>
-</ul>
+          <h3>Concept</h3>
+<p>Designed and built for the training area of Nerf Action Xperience - Manchester, Quick Dart was designed to test a players accuracy and reactions. The overall feel was intended to</p>
 <p><img src="/assets/images/blog/quick-dart/qd-gameplay-1.jpg" alt="">
-<img src="/assets/images/blog/quick-dart/qd-leaderboard.jpg" alt=""></p>
+<em>gameplay</em></p>
+<h3>Gameplay</h3>
+<p>Players attempt to hit 8 increasingly difficult targets with a maximum of 8 darts. Players have a limited time to hit each target, and on hit the next target will be smaller, faster or move in a more erratic pattern.</p>
+<p>Players are scored per target based on difficulty and time with a multiplier for consecutive hits. Scores are stored in a leader board after the game to promote competition and replays.</p>
+<p><img src="/assets/images/blog/quick-dart/qd-leaderboard.jpg" alt="">
+<em>game over screen</em></p>
+<h3>Technology</h3>
+<blockquote>
+<p>Hardware</p>
+</blockquote>
+<ul>
+<li>Runs on Windows PC hardware</li>
+<li>Large format 4K display</li>
+<li>Darts detected by IR touch frame, providing touch inputs</li>
+</ul>
+<blockquote>
+<p>Software</p>
+</blockquote>
+<ul>
+<li>Developed in Unity</li>
+<li>Azure PlayFab integration for persistent leader boards</li>
+<li>Hardware (start) button input provided as UDP packet</li>
+<li>UDP packets sent to a show controller to signal events</li>
+</ul>
+<h3>Development</h3>
+<p>Quick Dart was a solo developed project, with artwork provided by the NAX design team.</p>
 
         </article>
         
